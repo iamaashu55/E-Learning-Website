@@ -1,0 +1,364 @@
+/*untuk import costum fonts*/
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@400;700&display=swap');
+
+/*untuk keseluruhan*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*untuk bagian body*/
+body {
+    font-family: 'Quicksand', sans-serif;
+}
+
+/*--------------untuk bagian header---------------------*/
+.top-header {
+    background-color: #222831;
+    height: auto;
+    min-width: 100%;
+}
+
+header {
+    min-width: 100vw;
+    background-color: transparent;
+}
+
+header nav {
+    display: flex;
+    position: sticky;
+    align-items: center;
+    justify-content: space-around;
+    padding: 20px 100px;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    color: #E7F6F2;
+    font-size: 30px;
+    cursor: pointer;
+}
+
+.logo span {
+    color: #EEEEEE;
+}
+
+nav ul {
+    list-style-type: none;
+}
+
+nav ul li {
+    display: inline-block;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    font-weight: 700;
+    color: #D4ECDD;
+    text-transform: capitalize;
+    font-size: 180x;
+    transition: 0.4s ease-in-out;
+}
+
+nav ul li a:hover {
+    transition: 0.4s ease-in-out;
+    color: #EEEEEE;
+}
+
+.btn {
+    background-color: #D4ECDD;
+    padding: 8px 15px;
+    border-radius: 25px;
+    color: black;
+    transition: 0.25s ease-in-out;
+    text-decoration: none;
+
+}
+
+.btn:hover {
+    background-color: #D4ECDD;
+    color: #EEEEEE;
+}
+
+/*----------------------untuk hero-------------------*/
+.hero-section {
+    height: 90vh;
+    min-width: 100%;
+}
+
+.hero-box {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 40px 100px;
+}
+
+.left-box {
+    margin-left: 40px;
+    padding: 50px 0;
+}
+
+.started {
+    text-decoration: none;
+    color: black;
+    font-weight: 600;
+    font-size: 18px;
+}
+
+.ready {
+    color: #00ADB5;
+    margin-bottom: 8px;
+    font-weight: 600;
+}
+
+.left-box h1 {
+    font-size: 34px;
+    margin-bottom: 8px;
+    line-height: 44px;
+}
+
+span{
+    color: #222831;
+}
+
+.left-para{
+    margin-bottom: 30px;
+
+}
+
+.right-img {
+    width: 600px;
+}
+
+/*---------untuk bagian services----------*/
+.service-section {
+    margin: 0px;
+    padding: 0px;
+    height: 70vh;
+    box-sizing: border-box;
+    width: 100%;
+    background-color: #222831;
+}
+
+.service-tittle {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 30px;
+    margin: 50px;
+    color: #D4ECDD;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.services {
+    width: 85%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 75px auto;
+    text-align: center;
+}
+
+.card {
+    width: 100%;
+    height: 350px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    margin: 0px 20px;
+    padding: 20px 20px;
+    background-color: white;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.card .icon {
+    font-size: 35px;
+    margin-bottom: 10px;
+}
+
+.card h2 {
+    font-size: 28px;
+    color: #222831;
+    margin-bottom: 10px;
+}
+
+.card span {
+    font-weight: 700;
+    color: cadetblue;
+}
+
+.card p {
+    font-size: 18px;
+    margin-bottom: 10px;
+    line-height: 1.5;
+    color: #222831;
+}
+
+/*----------untuk about us----------------*/
+.aboutus {
+    min-width: 100%;
+    height: 80vh;
+}
+
+.aboutus img {
+    height: auto;
+    width: 600px;
+    border-radius: 10px;
+}
+
+.main-text {
+    width: 500px;
+    font-size: 18px;
+}
+
+.main-text h4 {
+    margin-bottom: 10px;
+    font-size: 22px;
+    color: #222831;
+}
+.main-text p {
+    margin-bottom: 20px;
+}
+
+.main {
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.aboutus-tittle {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 30px;
+    margin: 50px;
+    color: #00ADB5;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.aboutus-btn {
+    font-size: 14px;
+    color: #222831;
+    margin-top: 30px;
+}
+
+/*--------------Untul Course list--------------------------*/
+
+.course-top {
+    padding-bottom: 100px;
+    background-color: #E7F6F2;
+}
+
+.online-tittle {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 30px;
+    margin: 50px;
+    color: #222831;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.online-course {
+    height: auto;
+    padding: 0 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.online-course img {
+    width: 300px;
+    border-radius: 8px;
+    margin-bottom: 15px;
+}
+
+.online-box {
+    background-color: white;
+    padding: 30px 30px;
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-between;
+    border-radius: 8px;
+    box-shadow: 2px 2px 5px rgb(177, 177, 177), 2px 2px 5px rgb(177, 177, 177);
+    transition: .3s ease-in-out;
+}
+
+.online-box h2{
+    font-size: 20px;
+    font-weight: bold;
+    color: #222831;
+    margin: 5px 0;
+}
+
+.online-box p {
+    color: rgb(99, 99, 99);
+    margin: 5px 0;
+}
+
+.course-btn {
+    font-size: 14px;
+    color: #222831;
+    padding: 8px 20px;
+    margin: 7px 0;
+}
+
+.botton-feature {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 35px 0 0;
+}
+
+.left-date {
+    display: flex;
+    align-items: center;
+    position: relative;
+    right: 0px;
+}
+
+.right-stu {
+    display: flex;
+    align-items: center;
+    position: relative;
+    left: 30px;
+}
+
+.left-date p, .right-stu p {
+    font-size: 14px;
+    margin-left: 5px;
+}
+
+
+
+
+
+/*untuk footer*/
+footer {
+    padding: 100px;
+    color: #D4ECDD;
+    background-color: #222831;
+    text-align: center;
+}
+
+footer a{
+    text-decoration: none;
+    font-weight: 700;
+    color: #E7F6F2;
+}
+
+footer a:hover {
+    font-weight: bold;
+}
